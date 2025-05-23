@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+
+
+
+.conteudo {
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+
+.conteudo .titulo {
+    color: variaveis.$cor-texto;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: variaveis.$fonte-principal;
+}
+
+
+
+

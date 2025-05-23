@@ -1,0 +1,16 @@
+@use 'variaveis';
+button {
+    font-size: variaveis.$cor-br-escura;
+    border-radius: 20px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.botao-destaque {
+    background-color: variaveis.$cor-br-escura;
+}
+
+.botao-sucesso {
+    background-color:  variaveis.$cor-br-escura;
+    color: $cor-branca;
+}

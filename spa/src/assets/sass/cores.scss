@@ -1,0 +1,19 @@
+@use 'variaveis';
+
+
+.red { color: variaveis.$cor-vermelha-1; }
+.white { color: variaveis.$cor-branca; }
+.bg-red { background-color: variaveis.$cor-vermelha-1; }
+.bg-blue { background-color: variaveis.$cor-azul-1; }
+
+
+.gd-bg { background: variaveis.$gradiente-fiep; }
+
+
+.text-dark { color: variaveis.$cor-texto; }
+.bg-light { background-color: variaveis.$cor-cinza-claro; }
+.bg-azul-claro { background-color: variaveis.$cor-azul-claro; }
+
+
+
+

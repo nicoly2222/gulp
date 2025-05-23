@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+
+.painel {
+    padding: 25px;
+    background-color: variaveis.$cor-branca;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    font-family: variaveis.$fonte-principal;
+}
+
+
+.painel h2 {
+    font-weight: 500;
+    color: variaveis.$cor-texto;
+    margin-top: 0;
+}
+
+
+
+

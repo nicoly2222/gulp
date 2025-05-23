@@ -1,0 +1,29 @@
+@use 'variaveis';
+
+
+
+
+button {
+    font-size: variaveis.$tamanho-medio;
+    border-radius: 20px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+
+
+
+.botao-destaque {
+    background-color: variaveis.$cor-bg-vermelho;
+    color: variaveis.$cor-branca;
+}
+
+
+
+
+.botao-sucesso {
+    background-color: variaveis.$cor-bg-verde;
+    color: variaveis.$cor-branca;
+}
+
+

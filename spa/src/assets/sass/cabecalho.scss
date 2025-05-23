@@ -1,0 +1,49 @@
+@use 'variaveis';
+
+
+header.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: variaveis.$cor-branca;
+    padding: 0px 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: variaveis.$fonte-principal;
+    height: variaveis.$altura-cabecalho;
+}
+
+
+
+
+header.cabecalho input {
+    flex-grow: 10;
+    margin-right: 15px;
+    border-radius: 7px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+@media(max-width: variaveis.$largura-sm-max) {
+    header.cabecalho {
+        justify-content: flex-end;
+    }
+
+
+    header.cabecalho input  {
+        display: none;
+    }
+}
+
+
+@media(max-width: variaveis.$largura-xs-max) {
+    header.cabecalho {
+        justify-content: center;
+    }
+}
+
+
+
+
+
